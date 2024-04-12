@@ -5,9 +5,17 @@ module.exports = {
     extend: {
       colors:{
         "myRed":"#C00000"
+      },
+      boxShadow: {
+        navbar: "0px 10px 80px 0px rgba(3,3,0.03). 0 1px 2px -1px rgba(3, 4, 4, 0.03)"
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/line-clamp"),
+    require("@tailwindcss/aspect-ratio"),
+  ],
 }
 
