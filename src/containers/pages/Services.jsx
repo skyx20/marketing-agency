@@ -4,6 +4,7 @@ import Header from "components/services/Header";
 import ServicesList from "components/services/ServicesList";
 import Layout from "hocs/layout/Layout";
 import coding_img from 'assets/images/services/coding.png'
+import {useEffect} from 'react'
 
 const posts_software = [
     {
@@ -127,12 +128,16 @@ const posts_design = [
 
 
 const Services = () => {
+    useEffect(()=>{
+    window.scrollTo(0,0);
+    }, []);
     return (    
         <Layout> 
             <Navbar/>
             <div className="pt-32"> 
                 <Header/>
-                <ServicesList/>
+                <ServicesList posts={posts_software} section_title={'Software and Product Development'}/>
+                <ServicesList posts={posts_design} section_title={'Design Services'}/>
             </div>
             <Footer/>
         </Layout>
