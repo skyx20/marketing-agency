@@ -42,8 +42,8 @@ const stats = [
                   src="https://images.unsplash.com/photo-1521510895919-46920266ddb3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&fp-x=0.5&fp-y=0.6&fp-z=3&width=1440&height=1440&sat=-100"
                   alt=""
                 />
-                <div className="absolute inset-0 bg-indigo-500 mix-blend-multiply" />
-                <div className="absolute inset-0 bg-gradient-to-t from-indigo-600 via-indigo-600 opacity-90" />
+                <div className="absolute inset-0 bg-red-500 mix-blend-multiply" />
+                <div className="absolute inset-0 bg-gradient-to-t from-red-700 via-red-700 opacity-90" />
                 <div className="relative px-8">
                   <div>
                     <img
@@ -55,7 +55,7 @@ const stats = [
                   <blockquote className="mt-8">
                     <div className="relative text-lg font-medium text-white md:flex-grow">
                       <svg
-                        className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-indigo-400"
+                        className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-red-400"
                         fill="currentColor"
                         viewBox="0 0 32 32"
                         aria-hidden="true"
@@ -69,7 +69,7 @@ const stats = [
                     </div>
   
                     <footer className="mt-4">
-                      <p className="text-base font-semibold text-indigo-200">Sarah Williams, CEO at Workcation</p>
+                      <p className="text-base font-semibold text-red-200">Sarah Williams, CEO at Workcation</p>
                     </footer>
                   </blockquote>
                 </div>
@@ -114,7 +114,7 @@ const stats = [
                 ))}
               </dl>
               <div className="mt-10">
-                <a href="#" className="text-base font-medium text-indigo-600">
+                <a alt='' href="#" className="text-base font-medium text-red-600">
                   Learn more about how we're changing the world
                   <span aria-hidden="true"> &rarr;</span>
                 </a>

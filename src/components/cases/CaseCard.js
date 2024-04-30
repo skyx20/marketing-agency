@@ -9,13 +9,13 @@ function CaseCard({data,index}){
             const title_element = document.getElementById(index)
             title_element.classList.add('text-myRed')
             const img = document.getElementById(data.id)
-            img.classList.add('object-scale-down')
+            // img.classList.add('object-scale-down')
         }} 
         onMouseLeave={()=>{
             const title_element = document.getElementById(index)
             title_element.classList.remove('text-black')
             const img = document.getElementById(data.id)
-            img.classList.remove('object-scale-down')
+            // img.classList.remove('object-scale-down')
         }} 
         
         className="flex flex-col overflow-hidden  rounded-lg shadow-lg">

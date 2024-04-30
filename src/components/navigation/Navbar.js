@@ -10,23 +10,23 @@ import ULAL from './ULAL';
 
 const linkData = [
     {
-    link: '/cases/',
+    route: '/cases/',
     title: 'Cases'
     },
     {
-    link: '/services/',
+    route: '/services/',
     title: 'Services'
     },
     {
-    link: '/about/',
+    route: '/about/',
     title: 'About'
     },
     {
-    link: '/careers/',
+    route: '/careers/',
     title: 'careers'
     },
     {
-    link: '/contact/',
+    route: '/contact/',
     title: 'Contact'
     },
 ]
@@ -58,28 +58,28 @@ const Navbar = () => {
                     className="
                     group relative text-lg inline-flex font-medium leading-6 text-gray-900 mx-4">
                         Cases
-                    <span className="bg-myRed h-0.5 absolute w-0 group-hover:w-full transition-all duration-200left-0 bottom-0 "></span>
+                    <span className="bg-myRed h-0.5 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0 "></span>
                     </NavLink>
         
                     <NavLink to='/services/' className="
                     group relative text-lg inline-flex font-medium leading-6 text-gray-900 mx-4">Services
-                    <span className="bg-myRed h-0.5 absolute w-0 group-hover:w-full transition-all duration-200left-0 bottom-0 group"></span>
+                    <span className="bg-myRed h-0.5 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0 group"></span>
                     </NavLink>
                     <NavLink to='/about/' className="
                     group relative text-lg inline-flex font-medium leading-6 text-gray-900 mx-4">About
-                    <span className="bg-myRed h-0.5 absolute w-0 group-hover:w-full transition-all duration-200left-0 bottom-0 "></span>
+                    <span className="bg-myRed h-0.5 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0 "></span>
                     </NavLink>
                     <NavLink to='/careers/' className="
                     group relative text-lg inline-flex font-medium leading-6 text-gray-900 mx-4">Careers
-                    <span className="bg-myRed h-0.5 absolute w-0 group-hover:w-full transition-all duration-200left-0 bottom-0 "></span>
+                    <span className="bg-myRed h-0.5 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0 "></span>
                     </NavLink>
                     {/* <NavLink to='/blog/' className="
                     group relative text-lg inline-flex font-medium leading-6 text-gray-900 mx-4">Blog
-                    <span className="bg-myRed h-0.5 absolute w-0 group-hover:w-full transition-all duration-200left-0 bottom-0 "></span>
+                    <span className="bg-myRed h-0.5 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0 "></span>
                     </NavLink> */}
                     <NavLink to='/contact/' className="
                     group relative text-lg inline-flex font-medium leading-6 text-gray-900 mx-4">Contact
-                    <span className="bg-myRed h-0.5 absolute w-0 group-hover:w-full transition-all duration-200left-0 bottom-0 "></span>
+                    <span className="bg-myRed h-0.5 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0 "></span>
                     </NavLink>
                     <Link
                         to="/contact/"
@@ -120,7 +120,7 @@ const Navbar = () => {
                                     <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black/5">
                                         <div className="absolute grid gap-8 bg-white p-7 lg:grid-cols-2">
                                             {linkData.map((data) =>(
-                                                <ULAL link={data.link} title={data.title}/>
+                                                <ULAL link={data}/>
                                             ))}
                                         </div>
                                     </div>

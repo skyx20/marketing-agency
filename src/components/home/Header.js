@@ -91,8 +91,8 @@ const navigation = {
 const Header = () => {
     return ( 
         <main>
-        <div className="relative px-6 lg:px-8">
-          <div className="mx-auto max-w-full xl:mx-12 xl:pt-40 xl:pb-10 lg:pt-40 lg:pb-32 pt-24 pb-12">
+        <div className=" px-6 lg:px-8">
+        <div className="relative mx-auto  max-w-full xl:mx-12 xl:pt-40 xl:pb-64 lg:pt-40 lg:pb-48 pt-24 pb-12  ">
             <div>
               <div>
                 <h1 className="text-4xl font-semibold tracking-tight pb-16  sm:text-7xl">
@@ -139,9 +139,13 @@ const Header = () => {
                   </a>
                 ))}
                 </div>
-              <div className="absolute inset-x-0 top-[calc(100%-20rem)] -z-10 transform-gpu overflow-hidden bg-white blur-lg lg:top-[calc(100%-30rem)]">
-                <img src="https://bafybeicgamofiuvkc6wjxl4wwzzh6pdovhcvvyc2gw5verruiolnykzz3i.ipfs.w3s.link/bbub3.jpg" className='w-full h-96 object-cover'/>
-              </div>
+                <div className="absolute right-0 w-full top-[calc(100%-20rem)] lg:top-[calc(100%-35rem)] -z-10 blur-lg">
+                    <div class=" w-full max-w-lg">
+                      <div class="absolute top-0 2xl:right-96 right-60 w-72 h-72 bg-red-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+                      <div class="absolute top-0 2xl:right-40 right-4 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+                      <div class="absolute -bottom-8 2xl:right-72 right-40 w-72 h-72 bg-orange-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+                    </div>
+                </div>
             </div>
           </div>
         </div>
