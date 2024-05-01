@@ -10,23 +10,23 @@ import ULAL from './ULAL';
 
 const linkData = [
     {
-    route: '/cases/',
+    link: '/cases/',
     title: 'Cases'
     },
     {
-    route: '/services/',
+    link: '/services/',
     title: 'Services'
     },
     {
-    route: '/about/',
+    link: '/about/',
     title: 'About'
     },
     {
-    route: '/careers/',
+    link: '/careers/',
     title: 'careers'
     },
     {
-    route: '/contact/',
+    link: '/contact/',
     title: 'Contact'
     },
 ]
@@ -102,7 +102,7 @@ const Navbar = () => {
                                 className={`
                                     ${open ? 'text-white' : 'text-white/90'}
                                     focus:ring-none focus-outline-none`}>
-                                <box-icon name={opend ? 'x': 'menu-alt-right'} onClick={
+                                <box-icon name={opend ? 'x': 'menu'} onClick={
                                     () => { opend ? setopend(false) : setopend(true);}}>
                                 </box-icon>
                 
@@ -116,11 +116,11 @@ const Navbar = () => {
                                 leaveFrom="opacity-100 translate-y-0"
                                 leaveTo="opacity-0 translate-y-1"
                                 >
-                                <Popover.Panel className="absolute -left-2 z-10 mt-3 w-screen max-w-sm -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl">
-                                    <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black/5">
-                                        <div className="absolute grid gap-8 bg-white p-7 lg:grid-cols-2">
+                                <Popover.Panel className="absolute left-18 z-10 mt-3 w-screen max-w-sm -translate-x-1/3 transform px-4 sm:px-0 lg:max-w-3xl">
+                                    <div className="overflow-hidden rounded-lg shadow-lg ">
+                                        <div className="absolute grid gap-8 bg-white shadow-2xl p-7 lg:grid-cols-2">
                                             {linkData.map((data) =>(
-                                                <ULAL link={data}/>
+                                                <ULAL link={data.link} title={data.title}/>
                                             ))}
                                         </div>
                                     </div>
