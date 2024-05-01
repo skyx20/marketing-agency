@@ -1,4 +1,5 @@
 
+
 const navigation = {
   solutions: [
     { name: 'Marketing', href: '#' },
@@ -89,26 +90,24 @@ function Header(){
 
     return(
         <main>
-        <div className=" px-6 lg:px-8">
-          <div className="relative mx-auto  max-w-full xl:mx-12 xl:pt-40 xl:pb-64 lg:pt-40 lg:pb-48 pt-24 pb-12  ">
-              <div>
-                <div>
-                  <h1 className="text-4xl font-semibold tracking-tight pb-16  sm:text-7xl">
-                      Software Development Services
-                  </h1>
-                  <p className="mt-16 text-2xl max-w-3xl leading-8 text-black ">
-                  We love to shake established thought-patterns and create what has never been attempted before. We take seeds and grow jungles
-                  </p>
+        <div className="pt-32 px-6 lg:px-8">
+            <div className="relative mx-auto  max-w-full xl:mx-12 xl:pt-40 xl:pb-64 lg:pt-40 lg:pb-48 pt-24 pb-12  ">
+                <h1 className="text-4xl font-semibold tracking-tight pb-16  sm:text-7xl">
+                    Get in Touch
+                </h1>
+                <p className="mt-16 text-2xl max-w-3xl leading-8 text-black ">
+                <span class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl block dark:text-white">Chat to our friendly team</span>
+                We’d love to hear from you. Please fill out this form or shoot us an email.
+                </p>
+                <div className="flex space-x-6 mt-20">
+                {navigation.social.map((item) => (
+                  <a key={item.name} href={item.href} className="text-gray-900 hover:text-gray-800">
+                    <span className="sr-only">{item.name}</span>
+                    <item.icon className="h-8 w-8" aria-hidden="true" />
+                  </a>
+                ))}
                 </div>
-                  <div className="flex space-x-6 mt-20">
-                  {navigation.social.map((item) => (
-                    <a key={item.name} href={item.href} className="text-gray-900 hover:text-gray-800">
-                      <span className="sr-only">{item.name}</span>
-                      <item.icon className="h-8 w-8" aria-hidden="true" />
-                    </a>
-                  ))}
-                  </div>
-                  <div className="absolute right-0 w-full top-[calc(100%-20rem)] lg:top-[calc(100%-35rem)] -z-10 blur-lg">
+                <div className="absolute right-0 w-full top-[calc(100%-20rem)] lg:top-[calc(100%-35rem)] -z-10 blur-lg">
                     <div class=" w-full max-w-lg">
                       <div class="absolute top-0 2xl:right-96 right-60 w-72 h-72 bg-red-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
                       <div class="absolute top-0 2xl:right-40 right-4 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
@@ -116,8 +115,7 @@ function Header(){
                     </div>
                 </div>
               </div>
-            </div>
-          </div>
+        </div>
       </main>
     )
 }

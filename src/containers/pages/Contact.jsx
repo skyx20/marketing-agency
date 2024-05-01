@@ -1,3 +1,5 @@
+import ContactForm from "components/contact/ContactForm";
+import Header from "components/contact/Header";
 import Footer from "components/navigation/Footer";
 import Navbar from "components/navigation/Navbar";
 import Layout from "hocs/layout/Layout";
@@ -10,9 +12,8 @@ const Contact = () => {
     return (    
         <Layout> 
             <Navbar/>
-            <div className="pt-32"> 
-                Contact 
-            </div>
+            <Header/>
+            <ContactForm/>
             <Footer/>
         </Layout>
     );

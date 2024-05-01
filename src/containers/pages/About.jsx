@@ -25,7 +25,6 @@ const Cases = () => {
                 <Clients/>
                 <Features/>
                 <Team/>
-                
 
             </div>
             <Footer/>

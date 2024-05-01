@@ -16,3 +16,4 @@ const ULAL = ({link, title}) => {
 }
 
 export default ULAL;
+
