@@ -9,14 +9,14 @@ const navigation = {
     { name: 'Insights', href: '#' },
   ],
   support: [
-      { name: 'Contacto', href: '/contacto' },
+    { name: 'Contacto', href: '/contacto' },
   ],
   company: [
-      { name: 'Casos', href: '/casos' },
-      { name: 'Servicios', href: '/servicios' },
-      { name: 'Nosotros', href: '/nosotros' },
-      { name: 'Carreras', href: '/carreras' },
-      { name: 'Blog', href: '/blog' },
+    { name: 'Casos', href: '/casos' },
+    { name: 'Servicios', href: '/servicios' },
+    { name: 'Nosotros', href: '/nosotros' },
+    { name: 'Carreras', href: '/carreras' },
+    { name: 'Blog', href: '/blog' },
   ],
   legal: [
     { name: 'Claim', href: '#' },
@@ -89,68 +89,121 @@ const navigation = {
 }
 
 const Header = () => {
-    return ( 
-        <main>
-        <div className=" px-6 lg:px-8">
+  return (
+    <main>
+      <div className=" px-6 lg:px-8">
         <div className="relative mx-auto  max-w-full xl:mx-12 xl:pt-40 xl:pb-64 lg:pt-40 lg:pb-48 pt-24 pb-12  ">
+          <div>
             <div>
-              <div>
-                <h1 className="text-4xl font-semibold tracking-tight pb-16  sm:text-7xl">
-                  Agancy for <Typewriter
-                        words={['Dreamers', 'Creators', 'You!']}
-                        loop={0}
-                        cursor
-                        cursorStyle='|'
-                        typeSpeed={70}
-                        deleteSpeed={50}
-                        delaySpeed={1000}/>
-                </h1>
-                <p className="mt-16 text-2xl max-w-3xl leading-8 text-black ">
+              <h1 className="text-4xl font-semibold tracking-tight pb-16  sm:text-7xl">
+                Agancy for <Typewriter
+                  words={['Dreamers', 'Creators', 'You!']}
+                  loop={0}
+                  cursor
+                  cursorStyle='|'
+                  typeSpeed={70}
+                  deleteSpeed={50}
+                  delaySpeed={1000} />
+              </h1>
+              <p className="mt-16 text-2xl max-w-3xl leading-8 text-black ">
                 Jumpstart today your business with one of our services that range from
-                </p>
-                <div className="flex gap-8 mt-2">
-                  <div className="inline-flex  relative group">
-                    <Link to='/services/' className=" text-lg  border-b-2 font-medium leading-8 text-gray-600 sm:text-center">Web</Link>
-                    <span className="bg-myRed h-0.5 absolute w-0 group-hover:w-full transition-all duration-200left-0 bottom-0"></span>
-                  </div>
-                  <span className="inline-flex relative group">
-                    <Link to='/services/' className=" text-lg  border-b-2 font-medium leading-8 text-gray-600 sm:text-center">Apps</Link>
-                    <span className="bg-myRed h-0.5 absolute w-0 group-hover:w-full transition-all duration-200left-0 bottom-0"></span>
-                  </span>
-                  <span className="inline-flex relative group">
-                    <Link to='/services/' className=" text-lg  border-b-2 font-medium leading-8 text-gray-600 sm:text-center">Videogames</Link>
-                    <span className="bg-myRed h-0.5 absolute w-0 group-hover:w-full transition-all duration-200left-0 bottom-0"></span>
-                  </span>
-                  <span className="inline-flex relative group">
-                    <Link to='/services/' className=" text-lg  border-b-2 font-medium leading-8 text-gray-600 sm:text-center">Marketing</Link>
-                    <span className="bg-myRed h-0.5 absolute w-0 group-hover:w-full transition-all duration-200left-0 bottom-0"></span>
-                  </span>
-                  <span className="inline-flex relative group">
-                    <Link to='/services/' className=" text-lg  border-b-2 font-medium leading-8 text-gray-600 sm:text-center">consultancies</Link>
-                    <span className="bg-myRed h-0.5 absolute w-0 group-hover:w-full transition-all duration-200left-0 bottom-0"></span>
-                  </span>
+              </p>
+              <div className="grid grid-cols-2 sm:flex gap-8 mt-2">
+                <div className="inline-flex">
+                  {/* content: '';
+                width: 100%;
+                height: 0.25rem;
+                border-radius: 100;
+                background-color: white; 
+                position: absolute;
+                left: 0px; 
+                bottom: -0.5rem; */}
+                  <Link to='/services/' className="relative group 
+                  after:w-full
+                  after:h-0.5
+                  after:rounded-full
+                  after:bg-gray-300
+                  after:absolute
+                  after:left-0
+                  after:-bottom-0
+                  text-lg  font-medium leading-8 text-gray-600 sm:text-center">Web
+                    <span className="bg-myRed h-0.5 z-10 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0"></span>
+                  </Link>
                 </div>
+                <span className="inline-flex">
+                  <Link to='/services/' className=" relative group 
+                  after:w-full
+                  after:h-0.5
+                  after:rounded-full
+                  after:bg-gray-300
+                  after:absolute
+                  after:left-0
+                  after:-bottom-0
+                  text-lg  font-medium leading-8 text-gray-600 sm:text-center">Apps
+                    <span className="bg-myRed h-0.5 z-10 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0"></span>
+                  </Link>
+                </span>
+                <span className="inline-flex">
+                  <Link to='/services/' className=" relative group 
+                  after:w-full
+                  after:h-0.5
+                  after:rounded-full
+                  after:bg-gray-300
+                  after:absolute
+                  after:left-0
+                  after:-bottom-0
+                  text-lg  font-medium leading-8 text-gray-600 sm:text-center">Videogames
+                    <span className="bg-myRed h-0.5 z-10 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0"></span>
+                  </Link>
+                </span>
+                <span className="inline-flex">
+                  <Link to='/services/' className=" relative group 
+                  after:w-full
+                  after:h-0.5
+                  after:rounded-full
+                  after:bg-gray-300
+                  after:absolute
+                  after:left-0
+                  after:-bottom-0
+                  text-lg  font-medium leading-8 text-gray-600 sm:text-center">Marketing
+                    <span className="bg-myRed h-0.5 z-10 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0"></span>
+                  </Link>
+                </span>
+                <span className="inline-flex">
+                  <Link to='/services/' className=" relative group 
+                  after:w-full
+                  after:h-0.5
+                  after:rounded-full
+                  after:bg-gray-300
+                  after:absolute
+                  after:left-0
+                  after:-bottom-0
+                  text-lg  font-medium leading-8 text-gray-600 sm:text-center">consultancies
+                    <span className="bg-myRed h-0.5 z-10 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0"></span>
+                  </Link>
+                </span>
               </div>
-                <div className="flex space-x-6 mt-20">
-                {navigation.social.map((item) => (
-                  <a key={item.name} href={item.href} className="text-gray-900 hover:text-gray-800">
-                    <span className="sr-only">{item.name}</span>
-                    <item.icon className="h-8 w-8" aria-hidden="true" />
-                  </a>
-                ))}
-                </div>
-                <div className="absolute right-0 w-full top-[calc(100%-20rem)] lg:top-[calc(100%-35rem)] -z-10 blur-lg">
-                    <div class=" w-full max-w-lg">
-                      <div class="absolute top-0 2xl:right-96 right-60 w-72 h-72 bg-red-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-                      <div class="absolute top-0 2xl:right-40 right-4 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-                      <div class="absolute -bottom-8 2xl:right-72 right-40 w-72 h-72 bg-orange-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
-                    </div>
-                </div>
+            </div>
+            <div className="flex space-x-6 mt-20">
+              {navigation.social.map((item) => (
+                <a key={item.name} href={item.href} className="text-gray-900 hover:text-gray-800">
+                  <span className="sr-only">{item.name}</span>
+                  <item.icon className="h-8 w-8" aria-hidden="true" />
+                </a>
+              ))}
+            </div>
+            <div className="absolute right-0 w-full top-[calc(100%-20rem)] lg:top-[calc(100%-35rem)] -z-10 blur-lg">
+              <div class=" w-full max-w-lg">
+                <div class="absolute top-0 2xl:right-96 right-60 w-72 h-72 bg-red-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+                <div class="absolute top-0 2xl:right-40 right-4 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+                <div class="absolute -bottom-8 2xl:right-72 right-40 w-72 h-72 bg-orange-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+              </div>
             </div>
           </div>
         </div>
-      </main>
-    );
+      </div>
+    </main>
+  );
 }
- 
+
 export default Header;
