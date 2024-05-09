@@ -108,7 +108,7 @@ const Header = () => {
               <p className="mt-16 text-2xl max-w-3xl leading-8 text-black ">
                 Jumpstart today your business with one of our services that range from
               </p>
-              <div className="grid grid-cols-2 sm:flex gap-8 mt-2">
+              <div className="grid grid-cols-3 sm:flex gap-2 mt-2">
                 <div className="inline-flex">
                   {/* content: '';
                 width: 100%;
@@ -118,7 +118,7 @@ const Header = () => {
                 position: absolute;
                 left: 0px; 
                 bottom: -0.5rem; */}
-                  <Link to='/services/' className="relative group 
+                  <Link to='/services/' className="relative group  
                   after:w-full
                   after:h-0.5
                   after:rounded-full
