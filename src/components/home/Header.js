@@ -109,7 +109,7 @@ const Header = () => {
                 Jumpstart today your business with one of our services that range from
               </p>
               <div className="grid grid-cols-3 sm:flex gap-2 mt-2">
-                <div className="inline-flex">
+                <div className="inline-flex ">
                   {/* content: '';
                 width: 100%;
                 height: 0.25rem;
@@ -130,7 +130,7 @@ const Header = () => {
                     <span className="bg-myRed h-0.5 z-10 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0"></span>
                   </Link>
                 </div>
-                <span className="inline-flex">
+                <span className="inline-flex sm:pl-6">
                   <Link to='/services/' className=" relative group 
                   after:w-full
                   after:h-0.5
@@ -143,7 +143,7 @@ const Header = () => {
                     <span className="bg-myRed h-0.5 z-10 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0"></span>
                   </Link>
                 </span>
-                <span className="inline-flex">
+                <span className="inline-flex sm:pl-6">
                   <Link to='/services/' className=" relative group 
                   after:w-full
                   after:h-0.5
@@ -156,7 +156,7 @@ const Header = () => {
                     <span className="bg-myRed h-0.5 z-10 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0"></span>
                   </Link>
                 </span>
-                <span className="inline-flex">
+                <span className="inline-flex sm:pl-6">
                   <Link to='/services/' className=" relative group 
                   after:w-full
                   after:h-0.5
@@ -169,7 +169,7 @@ const Header = () => {
                     <span className="bg-myRed h-0.5 z-10 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0"></span>
                   </Link>
                 </span>
-                <span className="inline-flex">
+                <span className="inline-flex sm:pl-6">
                   <Link to='/services/' className=" relative group 
                   after:w-full
                   after:h-0.5
