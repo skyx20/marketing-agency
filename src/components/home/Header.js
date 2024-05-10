@@ -107,9 +107,9 @@ const Header = () => {
             <p className="mt-16 text-2xl max-w-3xl leading-8 text-black ">
               Jumpstart today your business with one of our services that range from
             </p>
-            <div className="mt-2 grid grid-rows-2 grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:flex">
-              <div className="p-4 ">
-
+            <div className="mt-2 flex flex-wrap justify-center md:justify-start">
+              <div className="w-full md:w-1/3 lg:w-auto px-4 py-2 mb-2 md:mb-0 lg:mr-2 ">
+            
                 <Link to='/services/' className="relative group  
                   after:w-full
                   after:h-0.5
@@ -122,7 +122,7 @@ const Header = () => {
                   <span className="bg-myRed h-0.5 z-10 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0"></span>
                 </Link>
               </div>
-              <div className="p-4 sm:pl-6">
+              <div className="w-full md:w-1/3 lg:w-auto px-4 py-2 mb-2 md:mb-0 lg:mr-2">
                 <Link to='/services/' className=" relative group 
                   after:w-full
                   after:h-0.5
@@ -135,7 +135,7 @@ const Header = () => {
                   <span className="bg-myRed h-0.5 z-10 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0"></span>
                 </Link>
               </div>
-              <div className="p-4 sm:pl-6">
+              <div className="w-full md:w-1/3 lg:w-auto px-4 py-2 mb-2 md:mb-0 lg:mr-2">
                 <Link to='/services/' className=" relative group 
                   after:w-full
                   after:h-0.5
@@ -148,7 +148,7 @@ const Header = () => {
                   <span className="bg-myRed h-0.5 z-10 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0"></span>
                 </Link>
               </div>
-              <div className="p-4 sm:pl-6">
+              <div className="w-full md:w-1/3 lg:w-auto px-4 py-2 mb-2 md:mb-0 lg:mr-2">
                 <Link to='/services/' className=" relative group 
                   after:w-full
                   after:h-0.5
@@ -161,7 +161,7 @@ const Header = () => {
                   <span className="bg-myRed h-0.5 z-10 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0"></span>
                 </Link>
               </div>
-              <div className="p-4 sm:pl-6">
+              <div className="w-full md:w-1/3 lg:w-auto px-4 py-2 mb-2 md:mb-0 lg:mr-2">
                 <Link to='/services/' className=" relative group 
                   after:w-full
                   after:h-0.5
