@@ -86,6 +86,7 @@ function CasesList() {
           pagination={false}
           itemPadding={[8, 4, 12, 4]}
           disableArrowsOnEnd={true}
+          enableMouseSwipe={true}
         >
 
           {posts.map((post, index) => (
