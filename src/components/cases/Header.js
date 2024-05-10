@@ -108,11 +108,11 @@ function Header(){
                   </a>
                 ))}
                 <div className="absolute right-0 w-full top-[calc(100%-20rem)] lg:top-[calc(100%-35rem)] -z-10 blur-lg">
-                    <div class=" w-full max-w-lg">
-                      <div class="absolute top-0 2xl:right-96 right-60 w-72 h-72 bg-red-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-                      <div class="absolute top-0 2xl:right-40 right-4 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-                      <div class="absolute -bottom-8 2xl:right-72 right-40 w-72 h-72 bg-orange-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
-                    </div>
+                  <div class=" w-full max-w-lg">
+                      <div class="absolute w-36 h-36 xs:w-52 xs:h-52 bottom-64 xs:-top-6 right-36 sm:top-0 2xl:right-96 sm:right-60 sm:w-72 sm:h-72 bg-red-300 rounded-full mix-blend-multiply filter blur-xl sm:opacity-70 animate-blob"></div>
+                      <div class="absolute w-36 h-36 xs:w-52 xs:h-52 bottom-64 xs:bottom-4 right-0 sm:top-0 2xl:right-40 sm:right-4 sm:w-72 sm:h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl sm:opacity-70 animate-blob animation-delay-2000"></div>
+                      <div class="absolute w-36 h-36 xs:w-52 xs:h-52 bottom-96 xs:bottom-52 right-20 sm:-bottom-8 2xl:right-72 sm:right-40 sm:w-72 sm:h-72 bg-orange-300 rounded-full mix-blend-multiply filter blur-xl sm:opacity-70 animate-blob animation-delay-4000"></div>
+                  </div>
                 </div>
             </div>
           </div>
