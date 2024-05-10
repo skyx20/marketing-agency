@@ -32,7 +32,7 @@ module.exports = {
             }
         },
         screens: {
-            'xs': '400px',
+            'xs': '320px',
             ...defaultTheme.screens,
         }
     },
