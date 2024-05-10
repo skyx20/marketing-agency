@@ -84,7 +84,7 @@ function CasesList() {
           itemsToShow={3}
           breakPoints={breakPoints}
           pagination={false}
-          itemPadding={[0, 8]}
+          itemPadding={[8, 8]}
           disableArrowsOnEnd={true}
         >
 
