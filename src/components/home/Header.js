@@ -104,12 +104,11 @@ const Header = () => {
                 deleteSpeed={50}
                 delaySpeed={1000} />
             </h1>
-            <p className="mt-16 text-2xl max-w-3xl leading-8 text-black ">
+            <p className="mt-16 text-2xl max-w-3xl text-black ">
               Jumpstart today your business with one of our services that range from
             </p>
-            <div className="mt-2 flex flex-wrap justify-center md:justify-start">
-              <div className="w-full md:w-1/3 lg:w-auto px-4 py-2 mb-2 md:mb-0 lg:mr-2 ">
-            
+            <div className="mt-2 flex flex-wrap  md:justify-start">
+              <div className="w-full xs:w-1/2 sm:w-auto px-4 py-2 md:mr-2 ">
                 <Link to='/services/' className="relative group  
                   after:w-full
                   after:h-0.5
@@ -117,12 +116,12 @@ const Header = () => {
                   after:bg-gray-300
                   after:absolute
                   after:left-0
-                  after:-bottom-0
-                  text-lg  font-medium leading-8 text-gray-600 sm:text-center">Web
-                  <span className="bg-myRed h-0.5 z-10 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0"></span>
+                  after:-bottom-1
+                  text-lg  font-medium text-gray-600 sm:text-center">Web
+                  <span className="bg-myRed h-0.5 z-10 absolute w-0 group-hover:w-full transition-all duration-200 left-0 -bottom-1"></span>
                 </Link>
               </div>
-              <div className="w-full md:w-1/3 lg:w-auto px-4 py-2 mb-2 md:mb-0 lg:mr-2">
+              <div className="w-full xs:w-1/2 sm:w-auto px-4 py-2 md:mr-2">
                 <Link to='/services/' className=" relative group 
                   after:w-full
                   after:h-0.5
@@ -130,12 +129,12 @@ const Header = () => {
                   after:bg-gray-300
                   after:absolute
                   after:left-0
-                  after:-bottom-0
-                  text-lg  font-medium leading-8 text-gray-600 sm:text-center">Apps
-                  <span className="bg-myRed h-0.5 z-10 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0"></span>
+                  after:-bottom-1
+                  text-lg  font-medium text-gray-600 sm:text-center">Apps
+                  <span className="bg-myRed h-0.5 z-10 absolute w-0 group-hover:w-full transition-all duration-200 left-0 -bottom-1"></span>
                 </Link>
               </div>
-              <div className="w-full md:w-1/3 lg:w-auto px-4 py-2 mb-2 md:mb-0 lg:mr-2">
+              <div className="w-full xs:w-1/2 sm:w-auto px-4 py-2 mb-2 md:mb-0md:mr-2">
                 <Link to='/services/' className=" relative group 
                   after:w-full
                   after:h-0.5
@@ -143,12 +142,12 @@ const Header = () => {
                   after:bg-gray-300
                   after:absolute
                   after:left-0
-                  after:-bottom-0
-                  text-lg  font-medium leading-8 text-gray-600 sm:text-center">Videogames
-                  <span className="bg-myRed h-0.5 z-10 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0"></span>
+                  after:-bottom-1
+                  text-lg  font-medium text-gray-600 sm:text-center">Videogames
+                  <span className="bg-myRed h-0.5 z-10 absolute w-0 group-hover:w-full transition-all duration-200 left-0 -bottom-1"></span>
                 </Link>
               </div>
-              <div className="w-full md:w-1/3 lg:w-auto px-4 py-2 mb-2 md:mb-0 lg:mr-2">
+              <div className="w-full xs:w-1/2 sm:w-auto px-4 py-2 mb-2 md:mb-0md:mr-2">
                 <Link to='/services/' className=" relative group 
                   after:w-full
                   after:h-0.5
@@ -156,12 +155,12 @@ const Header = () => {
                   after:bg-gray-300
                   after:absolute
                   after:left-0
-                  after:-bottom-0
-                  text-lg  font-medium leading-8 text-gray-600 sm:text-center">Marketing
-                  <span className="bg-myRed h-0.5 z-10 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0"></span>
+                  after:-bottom-1
+                  text-lg  font-medium text-gray-600 sm:text-center">Marketing
+                  <span className="bg-myRed h-0.5 z-10 absolute w-0 group-hover:w-full transition-all duration-200 left-0 -bottom-1"></span>
                 </Link>
               </div>
-              <div className="w-full md:w-1/3 lg:w-auto px-4 py-2 mb-2 md:mb-0 lg:mr-2">
+              <div className="w-full xs:w-1/2 sm:w-auto px-4 py-2 mb-2 md:mb-0md:mr-2">
                 <Link to='/services/' className=" relative group 
                   after:w-full
                   after:h-0.5
@@ -169,9 +168,9 @@ const Header = () => {
                   after:bg-gray-300
                   after:absolute
                   after:left-0
-                  after:-bottom-0
-                  text-lg  font-medium leading-8 text-gray-600 sm:text-center">consultancies
-                  <span className="bg-myRed h-0.5 z-10 absolute w-0 group-hover:w-full transition-all duration-200 left-0 bottom-0"></span>
+                  after:-bottom-1
+                  text-lg  font-medium text-gray-600 sm:text-center">consultancies
+                  <span className="bg-myRed h-0.5 z-10 absolute w-0 group-hover:w-full transition-all duration-200 left-0 -bottom-1"></span>
                 </Link>
               </div>
             </div>
