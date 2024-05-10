@@ -94,8 +94,9 @@ const Header = () => {
       <div className=" px-6 lg:px-8">
         <div className="relative mx-auto  max-w-full xl:mx-12 xl:pt-40 xl:pb-64 lg:pt-40 lg:pb-48 pt-24 pb-12  ">
           <div>
-            <h1 className="text-4xl font-semibold tracking-tight pb-16  sm:text-7xl">
-              Agancy for <Typewriter
+            <h1 className="text-center lg:text-left text-5xl font-semibold tracking-tight pb-16  sm:text-7xl">
+              Agancy for {' '}
+              <span className='block lg:inline'><Typewriter
                 words={['Dreamers', 'Creators', 'You!']}
                 loop={0}
                 cursor
@@ -103,7 +104,7 @@ const Header = () => {
                 typeSpeed={70}
                 deleteSpeed={50}
                 delaySpeed={1000} />
-            </h1>
+              </span></h1>
             <p className="mt-16 text-2xl max-w-3xl text-black ">
               Jumpstart today your business with one of our services that range from
             </p>
