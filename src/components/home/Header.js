@@ -101,7 +101,7 @@ const Header = () => {
                 loop={0}
                 cursor
                 cursorStyle='|'
-                typeSpeed={70}
+                typeSpeed={100}
                 deleteSpeed={50}
                 delaySpeed={1000} />
               </span></h1>
@@ -109,7 +109,7 @@ const Header = () => {
               Jumpstart today your business with one of our services that range from
             </p>
             <div className="mt-2 flex flex-wrap  md:justify-start">
-              <div className="w-full xs:w-1/2 sm:w-auto px-4 py-2 md:mr-2 ">
+              <div className="w-full xs:w-1/2 sm:w-auto px-4 sm:pl-0 py-2 md:mr-2 ">
                 <Link to='/services/' className="relative group  
                   after:w-full
                   after:h-0.5
