@@ -10,7 +10,7 @@ function CasesList() {
       href: '#',
       category: { name: 'Article', href: '#' },
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       imageUrl:
@@ -29,7 +29,7 @@ function CasesList() {
       href: '#',
       category: { name: 'Video', href: '#' },
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. tempore temporibus quo laudantium.',
       date: 'Mar 10, 2020',
       datetime: '2020-03-10',
       imageUrl:
@@ -48,7 +48,7 @@ function CasesList() {
       href: '#',
       category: { name: 'Case Study', href: '#' },
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
       date: 'Feb 12, 2020',
       datetime: '2020-02-12',
       imageUrl:
