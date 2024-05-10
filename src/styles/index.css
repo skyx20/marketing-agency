@@ -66,3 +66,12 @@
     background-color: rgb(40, 40, 40) !important;
 
 }
+
+.hzTWok:hover:enabled,
+.hzTWok:focus:enabled {
+    background-color: rgb(40, 40, 40) !important;
+}
+
+.hzTWok:focus:enabled {
+    background-color: rgb(40, 40, 40) !important;
+}
