@@ -95,7 +95,7 @@ const Header = () => {
         <div className="relative mx-auto  max-w-full xl:mx-12 xl:pt-40 xl:pb-64 lg:pt-40 lg:pb-48 pt-24 pb-12  ">
           <div>
             <h1 className="text-center lg:text-left text-5xl font-semibold tracking-tight pb-16  sm:text-7xl">
-              Agancy for {' '}
+              Agency for {' '}
               <span className='block lg:inline'><Typewriter
                 words={['Dreamers', 'Creators', 'You!']}
                 loop={0}
