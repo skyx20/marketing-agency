@@ -33,7 +33,6 @@ const linkData = [
 
 const Navbar = () => {
     const [loading, SetLoading] = useState(true)
-    const [opend, setopend] = useState(false)
 
     window.onscroll = function () { scrollFunct() }
     const scrollFunct = () => {
@@ -98,12 +97,12 @@ const Navbar = () => {
                         <Popover size={60} className="relative">
                             {({ open }) => (
                                 <>
+                                    {console.log(`This is Open ${open}`)}
                                     <Popover.Button
                                         className={`
                                     ${open ? 'text-white' : 'text-white/90'}
-                                    focus:ring-none focus-outline-none`}>
-                                        <box-icon name={opend ? 'x' : 'menu'} onClick={
-                                            () => { opend ? setopend(false) : setopend(true); }}>
+                                    focus:outline-none`}>
+                                        <box-icon name={open ? 'x' : 'menu'}>
                                         </box-icon>
 
                                     </Popover.Button>
