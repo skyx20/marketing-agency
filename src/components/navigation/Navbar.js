@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import { Link, NavLink } from 'react-router-dom';
-import logoBrand from '../../assets/images/brandLogo/a.jpg'
+import logoBrand from '../../assets/images/brandLogo/brandLogo.png'
 import PuffLoader from 'react-spinners/PuffLoader'
 import { useState, Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
