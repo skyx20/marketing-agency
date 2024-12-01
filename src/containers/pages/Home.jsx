@@ -22,7 +22,6 @@ const Home = () => {
                 <UseCases />
                 <Features />
                 <CTA />
-                <LogoCloud />
             </div>
             <Footer />
         </Layout>
