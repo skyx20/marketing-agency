@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import logoBrand from '../../assets/images/brandLogo/a.jpg'
+import logoBrand from '../../assets/images/brandLogo/brandLogo.png'
 
 
 const navigation = {
