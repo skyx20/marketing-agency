@@ -11,7 +11,7 @@ function Clients(){
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a
                     scelerisque amet ullamcorper eu enim et fermentum, augue.
                 </p>
-                <div className="mt-8 sm:flex">
+                {/* <div className="mt-8 sm:flex">
                     <div className="rounded-md shadow">
                     <a
                         href="#"
@@ -64,7 +64,7 @@ function Clients(){
                     src="https://tailwindui.com/img/logos/statamic-logo-gray-400.svg"
                     alt="Statamic"
                     />
-                </div>
+                </div> */}
                 </div>
             </div>
             </div>

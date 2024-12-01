@@ -45,13 +45,7 @@ const stats = [
                 <div className="absolute inset-0 bg-red-500 mix-blend-multiply" />
                 <div className="absolute inset-0 bg-gradient-to-t from-red-700 via-red-700 opacity-90" />
                 <div className="relative px-8">
-                  <div>
-                    <img
-                      className="h-12"
-                      src="https://tailwindui.com/img/logos/workcation.svg?color=white"
-                      alt="Workcation"
-                    />
-                  </div>
+                  
                   <blockquote className="mt-8">
                     <div className="relative text-lg font-medium text-white md:flex-grow">
                       <svg
