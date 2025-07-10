@@ -1,8 +1,8 @@
 # A webpage for a Marketing agency
 
-## (DEPRECATED) A showy landing page for a marketing agancy having flexibility to provinding other services like softwere develoment
+## ( DEPRECATED ) A showy landing page for a marketing agency having flexibility to provide other services like software development.
 
-It'a a react-based project that use tailwindcss components for quick development and styling
+It'a a react-based project that use tailwindcss components for quick development and styling.
 
 _It uses create-react-app as builder_
 
